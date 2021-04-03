@@ -1,0 +1,197 @@
+
+/* START SERVICES SECTION   */
+html{
+  scroll-behavior: smooth;
+}
+  body{
+	margin: 0;
+	padding: 0;
+	background-color: #0e6cc4;
+  font-family: 'Source Sans Pro', cursive;
+}
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+}
+.button5 {
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(255,0,68);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #777777;
+    transition: ease-out 0.3s;
+    outline: none;
+    font-family: 'Orbitron', sans-serif;
+	 letter-spacing: 2px;
+	 background-color: #000000;
+  
+}
+.button1{
+    border-radius: 4px;  
+    background-color: #000000;
+}
+.button1:hover{
+    box-shadow: inset 300px 0 0 0 #ffffff;
+  cursor: pointer;
+  color: #000000;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+ 
+  
+}
+.button5:hover {
+  box-shadow: inset 300px 0 0 0 #ffffff;
+  cursor: pointer;
+  color: #000000;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+
+
+
+/* Page Management section */
+
+section.pricing {
+  margin-top: 300px;
+  background: #007bff;
+  background: #101820ff;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 #000000;
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+.pricing .btn:hover {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+  background-color: #101820ff;
+  color: #ffffff;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+/* Other Services section  */
+
+.item {
+    background: #fff;
+    text-align: center;
+    padding: 30px 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+    
+}
+.item:hover{
+    background: #eae2b7;
+    -webkit-transition: all .5s ease 0;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+    
+    
+    
+}
+.item:hover .item, .item:hover span.icon{
+    background:#fff;
+    border-radius:10px;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+    
+}
+.item:hover h6, .item:hover p{
+    color:rgb(10, 10, 10);
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+}
+.item p{
+    font-size:15px;
+    line-height:26px;
+}
+.item h6 {
+    margin-bottom:20px;
+    color:#000000;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+}
+.footer a{
+  color: #fff;
+}
+.footer a:hover{
+  color: rgb(10, 234, 241);
+}
