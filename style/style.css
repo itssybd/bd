@@ -51,9 +51,9 @@ body
     outline: none !important;
 }
 .nav-link:hover {
-    color: black !important;
+    color: rgb(51, 54, 49) !important;
     transition: 0.8s;
-    
+    font-size: 20px;
 }
 
 
