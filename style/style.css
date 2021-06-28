@@ -39,6 +39,7 @@ body
     float: right;
     text-align: left;
 }
+
 .fa-bars
 {
     color: #fff;
@@ -49,6 +50,12 @@ body
 {
     outline: none !important;
 }
+.nav-link:hover {
+    color: black !important;
+    transition: 0.8s;
+    
+}
+
 
 /*-------------banner section---------------*/
 
