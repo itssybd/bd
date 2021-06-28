@@ -1,6 +1,10 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-"Welcome to the Official website of Itssy.Itssy is a Digital marketing and freelance agency however we do it differently.Welcome to the NextGen", 
+"Welcome to ITSSY",
+"The Next Gen Digital Agency",
+"Page Management,Page Renovation,Buy/Sell Pages and more",
+"Turn your Name into a brand",
+"WE DO IT DIFFERENT" 
 
 );
 var iSpeed = 50; // time delay of print out
