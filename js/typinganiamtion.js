@@ -1,8 +1,7 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-"the best place for you to buy services and managing your page contents.", 
-"We can help you with anything including Graphics and media,",
-"We can build you a website and We can manage your FB page."
+"Welcome to the Official website of Itssy.Itssy is a Digital marketing and freelance agency however we do it differently.Welcome to the NextGen", 
+
 );
 var iSpeed = 50; // time delay of print out
 var iIndex = 0; // start printing array at this posision
