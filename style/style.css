@@ -46,6 +46,7 @@ body
     font-size: 30px !important;
     
 }
+
 .navbar-toggler
 {
     outline: none !important;
@@ -53,7 +54,9 @@ body
 .nav-link:hover {
     color: rgb(51, 54, 49) !important;
     transition: 0.8s;
-    font-size: 20px;
+    letter-spacing: 5px;
+    
+
 }
 
 
@@ -73,6 +76,7 @@ body
     font-weight: 600;
     margin-top: 40px;
 }
+
 .promo-title:hover {
     color: rgb(45, 45, 48) !important;
     transition: 0.8s;
@@ -85,7 +89,7 @@ body
 }
 #banner a
 {
-    color: rgb(255, 0, 0);
+    color: rgb(204, 23, 23);
     text-decoration: none;
 }
 .bottom-img
@@ -120,9 +124,16 @@ body
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    background-image: linear-gradient(to right, #ee7809,#e2a809);
 }
-
+#services .btn-primary:hover {
+    background-image: linear-gradient(to right, rgb(238, 130, 68),rgb(238, 82, 34));
+    
+    transition: 0.8s;
+}
+.hob:hover{
+    font-size: 18px;
+}
 /*---------------about-us section--------------*/
 
 #about-us
@@ -136,6 +147,16 @@ body
     font-size: 40px;
     font-weight: 600;
     margin-top: 8%;
+}
+.about-title:hover {
+    color: rgba(43, 29, 230, 0.836) !important;
+    
+    cursor: default;
+}
+li:hover {
+    color: rgb(40, 40, 218) !important;
+    
+    cursor: default;
 }
 #about-us ul li
 {
@@ -162,6 +183,11 @@ body
     font-weight: bold;
     margin-bottom: 30px;
 }
+.about:hover {
+    color: rgb(35, 35, 212) !important;
+    
+    cursor: default;
+}
 .subtitle{
     text-align: center;
     margin-bottom: 70px;
@@ -173,7 +199,7 @@ body
     margin-bottom: 10px;
     transition: .4s;
     border: 1 1 1 1;
-    background-color: #a0cdd375;
+    background-color: #ff0000;
     border-radius: 10px;
 }
 .service-box img{
@@ -222,7 +248,7 @@ body
 }
 .services-box
 {
-    background: #ffedbb8a;
+    background: #ffbb008a;
     padding: 10px;
     margin-top: 20px;
     border-top-right-radius: 50px;
