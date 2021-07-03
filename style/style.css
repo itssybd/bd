@@ -149,12 +149,12 @@ body
     margin-top: 8%;
 }
 .about-title:hover {
-    color: rgba(43, 29, 230, 0.836) !important;
+    
     
     cursor: default;
 }
 li:hover {
-    color: rgb(40, 40, 218) !important;
+    
     
     cursor: default;
 }
@@ -184,7 +184,7 @@ li:hover {
     margin-bottom: 30px;
 }
 .about:hover {
-    color: rgb(35, 35, 212) !important;
+    
     
     cursor: default;
 }
@@ -197,11 +197,14 @@ li:hover {
     padding: 0 35px;
     cursor: pointer;
     margin-bottom: 10px;
-    transition: .4s;
+    transition: 4s;
     border: 1 1 1 1;
-    background-color: #ff0000;
+    background-image: linear-gradient(to right, #ee9209,#e2ba09);
+    
     border-radius: 10px;
-}
+    
+    
+} 
 .service-box img{
     width: 60px;
     margin-top: 65px;
@@ -210,7 +213,10 @@ li:hover {
 .service-box h6{
     margin-bottom: 40px;
     font-weight: bold;
+    color: #000000;
+    
 }
+
 .service-box p{
     font-size: 14px;
     color: #000000;
@@ -221,18 +227,27 @@ li:hover {
     margin-bottom: 35px;
     cursor: pointer;
 }
-.service-box:hover,.active-service{
-    background: #00b9d1;
+.service-box:hover,.active-service {
+    background-image: linear-gradient(to bottom, #000000,#383838);
     border-radius: 5px;
     color: rgb(0, 0, 0) !important;
     box-shadow: 0 15px 15px 2px rgba(213,213,213,0.5);
     border-radius: 15px;
+    font-weight: 10px;
+    
+    
+  
+/* Transaction dibi*/
+    
+}
+.service-box:hover h6 {
+    color: #ffffff;
 }
 .service-box:hover p{
-    color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
 }
 .active-service p{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 /* Other Services section  */
@@ -248,13 +263,14 @@ li:hover {
 }
 .services-box
 {
-    background: #ffbb008a;
+    background-image: linear-gradient(to right, #ee9209,#e2ba09);
     padding: 10px;
     margin-top: 20px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     color: rgb(0, 0, 0);
     font-weight: 500;
+    
 }
 .services-box .fa
 {
@@ -275,17 +291,18 @@ li:hover {
 }
 .services-box:hover
 {
-    background: #000;
-    color: #fff;
+    background-image: linear-gradient(to bottom, #000000,#383838);
+    color: rgb(247, 247, 247);
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
     transition: 1s;
+    cursor: pointer;
 }
 .services-box:hover p
 {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 /* Page Management section */
