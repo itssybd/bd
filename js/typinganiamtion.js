@@ -1,10 +1,10 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-"Welcome to ITSSY",
+"ITSSY তে স্বাগতম",
 "The Next Gen Digital Agency",
-"Page Management,Page Renovation,Buy/Sell Pages and more",
-"Turn your Name into a brand",
-"WE DO IT DIFFERENT" 
+"Page Management,Page Renovation,Buy/Sell Pages এবং আরো",
+"আপনার নামকে একটি ব্র্যান্ডে পরিণত করুন",
+"আমরা এটা ভিন্ন ভাবে করি" 
 
 );
 var iSpeed = 50; // time delay of print out
