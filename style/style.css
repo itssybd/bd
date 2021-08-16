@@ -20,7 +20,7 @@ body
 .navbar
 {
     
-    background-image: linear-gradient(to right, #ee9209,#df5d29);
+    background-image: linear-gradient(to right, #ee9209,#e24609);
     padding: 0 !important;
 }
 .navbar-brand img
@@ -66,7 +66,7 @@ body
 
 #banner
 {
-    background-image: linear-gradient(to right, #ee9209,#df5d29);
+    background-image: linear-gradient(to right, #ee9209,#e24609);
     color: rgb(255, 255, 255);
     padding-top: 5%; 
 }
@@ -204,7 +204,7 @@ li:hover {
     
     border: 1 1 1 1;
     
-    background-image: linear-gradient(to right, #ee9209,#e95b23);
+    background-image: linear-gradient(to right, #ee9209,#e24609);
     border-radius: 10px;
     
     
@@ -232,7 +232,7 @@ li:hover {
     cursor: pointer;
 }
 .service-box:hover,.active-service {
-    background-image: linear-gradient(to right, #d46134,#e26b09);
+    background-image: linear-gradient(to right, #e95013,#e26b09);
     border-radius: 5px;
     color: rgb(0, 0, 0) !important;
     box-shadow: 0 15px 15px 2px rgba(213,213,213,0.5);
