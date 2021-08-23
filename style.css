@@ -1,0 +1,11 @@
+
+.btnc {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    font-size: 15px;
+    color: white;
+  }
+  .btnc:hover{
+      background-color: rgb(235, 95, 95) ;
+  }
